@@ -1,3 +1,6 @@
+# insert key by creating a hashed-key using modulus of the key (against number of elements)
+# If hashed-key is same, then insert the key into singly linked list.
+
 class Node:
     def __init__(self, val, next=None):
         self.val = val
